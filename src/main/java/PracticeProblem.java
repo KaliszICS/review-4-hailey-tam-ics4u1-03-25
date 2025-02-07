@@ -24,7 +24,7 @@ public class PracticeProblem {
 		Scanner in = new Scanner(System.in);
 		System.out.print("Input a number: ");
 		String num2 = in.nextLine();
-		System.out.println(Double.parseDouble(5 + 3 + num2)+ 3.2);
+		System.out.println(Double.parseDouble(4 + num2 + 3) + 3.4);
 	}
 
 	public static void q3() {
@@ -38,7 +38,7 @@ public class PracticeProblem {
 	public static void q4() {
 		//Write question 4 code here
 		Scanner in = new Scanner(System.in);
-		System.out.print("Input a integer: ");
+		System.out.print("Input an integer: ");
 		String num4 = in.nextLine();
 		System.out.println((char)(Integer.parseInt(num4 + 3) + 2));
 	}
@@ -46,7 +46,7 @@ public class PracticeProblem {
 	public static void q5() {
 		//Write question 5 code here
 		Scanner in = new Scanner(System.in);
-		System.out.print("Input a integer: ");
+		System.out.print("Input an integer: ");
 		String num5 = in.nextLine();
 		System.out.println((double)(Integer.parseInt(num5 + 1)/2));
 	}
@@ -54,7 +54,7 @@ public class PracticeProblem {
 	public static void q6() {
 		//Write question 6 code here
 		Scanner in = new Scanner(System.in);
-		System.out.print("Input a integer: ");
+		System.out.print("Input a number: ");
 		String num6 = in.nextLine();
 		System.out.println((int)(Double.parseDouble(1 + num6)));
 	}
